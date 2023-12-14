@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Weather</title>
+</head>
+<body>
+    <h2>Weather in {{ weather.name }}</h2>
+    <p>Temperature: {{ weather.main.temp }}°C</p>
+    <p>Weather: {{ weather.weather[0].description }}</p>
+    <p>Wind Speed: {{ weather.wind.speed }} m/s</p>
+    <a href="/logout">Logout</a>
+</body>
+</html>
+
